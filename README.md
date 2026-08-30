@@ -1,2 +1,2 @@
-# Potential_Information_Technology_Portfolio_Projects
-My potential information technology portfolio projects.
+# Potential Information Technology Portfolio
+A curated collection of projects, tools, and experiments in software development, cloud computing, and automation.
