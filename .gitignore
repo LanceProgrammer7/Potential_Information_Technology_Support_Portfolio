@@ -1,0 +1,117 @@
+# -------------------------
+# Secrets and credentials
+# -------------------------
+.env
+.env.*
+!.env.example
+
+*.pem
+*.key
+*.pfx
+*.p12
+*.crt
+*.cer
+
+credentials/
+secrets/
+private/
+certificates/
+
+# Configuration files that may contain sensitive values
+config.local.*
+settings.local.*
+*.secret
+*.password
+
+# -------------------------
+# Operating-system files
+# -------------------------
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# -------------------------
+# Editors and IDEs
+# -------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# -------------------------
+# Logs and troubleshooting output
+# -------------------------
+logs/
+*.log
+*.dmp
+*.tmp
+*.bak
+
+# Command output and diagnostic exports
+diagnostics/
+debug-output/
+troubleshooting-output/
+
+# -------------------------
+# Sensitive IT data
+# -------------------------
+ticket-exports/
+user-exports/
+device-inventories/
+asset-inventories/
+network-diagrams-private/
+backup-configs/
+firewall-configs-private/
+
+# -------------------------
+# Local databases and exports
+# -------------------------
+*.db
+*.sqlite
+*.sqlite3
+*.csv
+*.xlsx
+*.xls
+*.json
+
+# -------------------------
+# Downloaded installers and packages
+# -------------------------
+downloads/
+installers/
+*.iso
+*.dmg
+*.exe
+*.msi
+*.pkg
+*.deb
+*.rpm
+*.zip
+*.7z
+*.tar
+*.gz
+
+# -------------------------
+# Python, if used
+# -------------------------
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# -------------------------
+# PowerShell and shell history
+# -------------------------
+ConsoleHost_history.txt
+.bash_history
+.zsh_history
+
+# -------------------------
+# Generated documentation
+# -------------------------
+_site/
+build/
+dist/
